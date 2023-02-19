@@ -6,6 +6,7 @@ public class CountSameLetters {
     if(s.length() != t.length()) return false;
     
     int[] letters = new int[128]; //ASCⅡと仮定
+    // 時間計算量はO(s.length() + t.length())
     for (int i = 0; i < s.length(); i++){
       letters[s.charAt(i)]++;
     }
