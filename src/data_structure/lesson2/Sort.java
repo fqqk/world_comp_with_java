@@ -1,4 +1,4 @@
-package data_structure;
+package data_structure.lesson2;
 
 public class Sort {
   String s;

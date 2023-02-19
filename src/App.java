@@ -1,4 +1,4 @@
-import data_structure.Sort;
+import data_structure.lesson2.Sort;;
 
 public class App {
     public static void main(String[] args) throws Exception {
