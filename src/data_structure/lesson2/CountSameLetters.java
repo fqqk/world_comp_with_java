@@ -5,6 +5,7 @@ public class CountSameLetters {
   public boolean permutation(String s, String t) {
     if(s.length() != t.length()) return false;
     
+    // 使用する最大のメモリ領域→一定領域の確保だからO(1)
     int[] letters = new int[128]; //ASCⅡと仮定
     // 時間計算量はO(s.length() + t.length())
     for (int i = 0; i < s.length(); i++){
