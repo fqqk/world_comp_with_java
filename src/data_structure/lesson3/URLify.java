@@ -1,4 +1,4 @@
-package data_structure.lesson2;
+package data_structure.lesson3;
 
 public class URLify {
   public static void replaceSpaces(char[] str, int trueLength) {
